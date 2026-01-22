@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Site Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="shell">
+    <div class="logo"><h1> Tian (Tianyi) Wu</h1></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Professional Experience</a>
+      <a href="#education">Education</a>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section id="about" class="panel">
+      <div class="panel__header">
+        <p class="eyebrow">About Me</p>
+      </div>
+      <p class="lede">
+      Hello! I’m currently a Master's student in <strong>Big Data at Simon Fraser University</strong>. 
+      I obtained my Bachelor's degree in Mathematics with a double major in <strong>Statistics and Computational Mathematics</strong> from the <strong>University of Waterloo</strong>.
+      </p>
+      <p class="lede">
+        Focused on end-to-end ML systems, my expertise spans from <strong> Data Science to MLOps</strong> to build, deploy, and scale high-impact AI solutions. 
+        Beyond my core studies, I’m a researcher at heart—deep-diving into <strong>NLP and Computer Vision</strong> to stay at the forefront of AI innovation.
+      </p>
+
+      <p class="lede">
+        In my free time I enjoy playing badminton a lot. My favorite animal is cheetah and blue sharks are my favorite sharks (greenland sharks are pretty cool too).
+      </p>
+      <div class="about-meta">
+        <div class="pill-row">
+          <span class="pill">MLOps · AWS</span>
+          <span class="pill">NLP | LLMs</span>
+          <span class="pill">Computer Vision</span>
+          <span class="pill">Statistical Modelling</span>
+        </div>
+        <div class="about-links">
+          <a href="https://www.linkedin.com/in/tianyi-wu-52k/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path fill="#0A66C2" d="M20.447 20.452h-3.553v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.447-2.136 2.942v5.664H9.354V9h3.414v1.561h.047c.476-.9 1.637-1.85 3.37-1.85 3.604 0 4.27 2.372 4.27 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.123 2.062 2.062 0 0 1 0 4.123zM3.559 20.452h3.556V9H3.559v11.452z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/tianw52" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path fill="#1b1f23" d="M12 .5C5.73.5.5 5.73.5 12c0 5.1 3.293 9.418 7.865 10.951.575.105.785-.25.785-.556 0-.274-.01-.998-.016-1.958-3.198.695-3.874-1.542-3.874-1.542-.523-1.328-1.278-1.682-1.278-1.682-1.044-.714.079-.699.079-.699 1.155.081 1.763 1.186 1.763 1.186 1.027 1.76 2.695 1.251 3.35.957.104-.744.402-1.252.73-1.54-2.553-.29-5.237-1.277-5.237-5.683 0-1.255.45-2.28 1.187-3.084-.119-.29-.515-1.459.113-3.04 0 0 .967-.31 3.17 1.178a11.07 11.07 0 0 1 5.776 0c2.203-1.488 3.168-1.178 3.168-1.178.63 1.581.234 2.75.115 3.04.74.804 1.186 1.83 1.186 3.084 0 4.418-2.69 5.39-5.255 5.675.414.357.784 1.062.784 2.141 0 1.546-.014 2.79-.014 3.17 0 .308.208.667.79.554C20.21 21.414 23.5 17.097 23.5 12 23.5 5.73 18.27.5 12 .5Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="panel">
+      <div class="panel__header">
+        <p class="eyebrow">Projects</p>
+      </div>
+      <div class="card-grid projects-scroll">
+        <article class="card">
+          <header class="card__header">
+            <h3><a href="https://www.sfu.ca/fas/computing/news-events/news/2026/january/sfu-launches-legal-ai-collaboration-with-caseway-to-improve-acce.html" target="_blank" rel="noopener">RAG System for Open Access to Court Cases </a></h3>
+            <span class="year">Present</span>
+          </header>
+          <p>
+            Developing advanced embedding strategies and relationship
+            modeling to improve legal information retrieval for 100M+ court cases, aimed at bridging the justice gap for self-represented individuals.
+          </p>
+          <div class="tags">
+            <span>Start-up</span>
+            <span>NLP | LLM | RAG </span>
+            <span>OpenSearch</span>
+          </div>
+        </article>
+        <article class="card">
+          <header class="card__header">
+            <h3><a href="https://github.com/tianw52/Stocks-Portfolio-Optimization-using-ML" target="_blank" rel="noopener">Winner of SFU MPCS Innovation Award</a></h3>
+            <span class="year">2025</span>
+          </header>
+          <p>
+            Led a team of 4
+          </p>
+          <p> Built a ML-driven portfolio optimizer (Nested Clustered Optimization) with an interactive UI 
+            that generates allocations based on tickers and risk targets.
+          </p>
+          <div class="tags">
+            <span>Quantitative Finance</span>
+            <span>Financial Machine Learning</span>
+          </div>
+        </article>
+        <article class="card">
+          <header class="card__header">
+            <h3><a href="https://github.com/tianw52/scotiabank_ai_kathon_24" target="_blank" rel="noopener">
+              2nd Place @ Scotiabank AI-Kathon
+            </a></h3>
+            <span class="year">2024</span>
+          </header>
+          <p>Led a team of 4</p>
+          <p> Delivered LLM + NLP pipeline that filtered 9K+ customer reviews, performed sentiment scoring,
+             and surfaced pain-point topics to guide product improvements.
+          </p>
+          <div class="tags">
+            <span>PyTorch</span>
+            <span>Transformers</span>
+            <span>LLM</span>
+            <span>BERTopic</span>
+          </div>
+        </article>
+        <article class="card">
+          <header class="card__header">
+            <h3><a href="https://github.com/tianw52/Trend_in_Music_Popularity_from_Global_Phenomena" target="_blank" rel="noopener">Global Trends in Music Popularity</a></h3>
+            <span class="year">2024</span>
+          </header>
+          <p>Explored global drivers of music virality with ETL, feature engineering, modeling, and visualizations to explain popularity shifts.</p>
+          <div class="tags">
+            <span>Python</span>
+            <span>ETL</span>
+            <span>ML</span>
+            <span>Power BI</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    
+
+    <section id="experience" class="panel">
+      <div class="panel__header">
+        <p class="eyebrow">Work Experience</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline__item">
+          <p class="eyebrow">May 2025 — Present</p>
+          <div class="role-line">
+            <h3>Data Scientist · Rio Tinto</h3>
+            <span class="job-location">Vancouver, Canada</span>
+          </div>
+          <p>
+            <strong>Multi-Domain AI Development</strong>: Engineered end-to-end solutions across NLP, Computer Vision, 
+            and Statistical Machine Learning, specializing in the deployment of scalable models for industrial applications.
+          </p>
+          <p>
+            <strong>Full-Stack MLOps Engineering</strong>: Bridged the transition of research prototypes into production-ready AI services,
+             implementing robust data pipelines to handle multi-modal inputs including imagery, unstructured text, and spatial data.
+          </p>
+          <p>
+            <strong>Innovation</strong>: Search and prototyped cutting-edge academic research methods to solve industrial challenges.
+          </p>
+        </article>
+        <article class="timeline__item">
+          <p class="eyebrow">Sep 2025 — Dec 2025</p>
+          <div class="role-line">
+            <h3>Graduate TA · Simon Fraser University</h3>
+            <span class="job-location">Vancouver, Canada</span>
+          </div>
+          <p>Guided graduate labs on Hadoop, Spark, NoSQL, and scalable data pipelines; unblocked debugging and reinforced best practices for distributed systems.</p>
+        </article>
+        <article class="timeline__item">
+          <p class="eyebrow">Jun 2023 — Jul 2023</p>
+          <div class="role-line">
+            <h3>Intern Data Analyst · Mashang Consumer Finance</h3>
+            <span class="job-location">China</span>
+          </div>
+          <p>Cleaned and transformed 30+ datasets (1M+ rows) in SQL; built a BI dashboard to flag high-risk customer groups and alert key metrics in real time.</p>
+        </article>
+      </div>
+    </section>
+    <section id="education" class="panel">
+      <div class="panel__header">
+        <p class="eyebrow">Education</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline__item">
+          <p class="eyebrow">09/2024 — 04/2026</p>
+          <div class="role-line">
+            <h3>Master’s in Professional Computer Science (Big Data)</h3>
+            <span class="job-location">Simon Fraser University · Canada</span>
+          </div>
+        </article>
+        <article class="timeline__item">
+          <p class="eyebrow">09/2021 — 08/2024</p>
+          <div class="role-line">
+            <h3>Bachelor of Mathematics · Honors Statistics & Computational Mathematics</h3>
+            <span class="job-location">University of Waterloo · Canada</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
